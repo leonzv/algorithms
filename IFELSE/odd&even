@@ -6,13 +6,13 @@ public class main {
 
  
 	    int i;
-			System.out.print("Digite um numero: ");
+			System.out.print("Enter a number: ");
 			i = scan.nextInt();
 			
 		if(i % 2 == 0){
-			System.out.print("O numero é par");
+			System.out.print("Number is even");
 		}else{
-			System.out.print("o numero é impar");
+			System.out.print("Number is odd");
 		}
 	}
 }
