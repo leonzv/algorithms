@@ -11,7 +11,7 @@ public class Main {
 
 
         for (int i=1; i<11; i++) {
-            System.out.println (i + "° Please, "+"Type your name: ");
+            System.out.println (i + "° Please, "+"enter your name: ");
             nome[i] = scan.nextLine();
             }
         
