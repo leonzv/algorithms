@@ -50,17 +50,17 @@ int main(){
     int a = 0, b = 100, c = 300, temp, x, y, z;   
     
     //Exercicio 1
-    printf("EXERCICIO 1: Digite a temperatura da agua: \n"); 
-    scanf("%d\n\n", &temp);
+    printf("EXERCICIO 1: Digite a temperatura da agua: \t"); 
+    scanf("%d", &temp);
     printf("com a temperatura de: %d\n\n", tempAgua(temp));
     
     //Exercicio 2
-    printf("Digite seu salario: ");
-    scanf("%d\n\n", &x );
-    printf("Digite o valor do financiamento: ");
-    scanf("%d\n\n", &y );
-    printf("Digite em quantas vezes quer parcelar: ");
-    scanf("%d\n\n", &z ); 
+    printf("Digite seu salario:\t ");
+    scanf("%d", &x );
+    printf("Digite o valor do financiamento:\t ");
+    scanf("%d", &y );
+    printf("Digite em quantas vezes quer parcelar:\t ");
+    scanf("%d", &z ); 
     permFinanciamento(x, y, z);
 
     //Exercicio 3
@@ -74,5 +74,4 @@ int main(){
     //Teste do Exercicio 7  
     printf("EXERCICIO 7: entre %d, %d e %d, o menor: %d\n\n", a, b, c, menorNumero(a,b,c));   
     
-} 
-    
+}
